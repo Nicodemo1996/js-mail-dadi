@@ -18,5 +18,11 @@ const emailUtente = prompt("Inserisci il tuo indirizzo email:");
 //BOOLEANO (FALSO)//
 let inList = false;
 
-//CONTROLLO UTENTE IN LISTA///
+//PERSONA VERAMENTE IN LISTA (VERO)//
+inList = true;
 
+//CONTROLLO UTENTE IN LISTA///
+for (let i = 0; i < emailRegistrate.length; i++) {
+
+  // CONDFROTNTO REGISTRAZIONE-UTENTE//
+  if (emailRegistrate[i] === emailUtente) {
