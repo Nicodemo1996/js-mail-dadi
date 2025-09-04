@@ -32,3 +32,15 @@ for (let i = 0; i < emailRegistrate.length; i++) {
   }
 }
 
+//MESSAGGIO SE LA PERSONA E' NELLA LISTA//
+
+if (inList) {
+  console.log("Eccoti, ti stavamo aspettando! buon divertimento! ")
+}
+
+
+//MESSAGGIO SE LA PERSONA NON E' NELLA LISTA//
+
+else {
+  console.log("Non hai l'autorizzazione per accedere, ")
+}
