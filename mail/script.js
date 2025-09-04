@@ -26,3 +26,9 @@ for (let i = 0; i < emailRegistrate.length; i++) {
 
   // CONDFROTNTO REGISTRAZIONE-UTENTE//
   if (emailRegistrate[i] === emailUtente) {
+
+    //STOP DEL CICLO//
+    break;
+  }
+}
+
